@@ -37,15 +37,15 @@ fun PageList(pages: List<Page>) {
 
 private fun generateDummyPages(): List<Page> {
     return listOf(
-        Page("discrete uniform distribution", ""),
-        Page("binomial distribution", ""),
+        Page("Discrete uniform distribution", ""),
+        Page("Binomial distribution", ""),
         Page("Poisson distribution", ""),
-        Page("continuous uniform distribution", ""),
-        Page("normal distribution", ""),
-        Page("exponential distribution", ""),
+        Page("Continuous uniform distribution", ""),
+        Page("Normal distribution", ""),
+        Page("Exponential distribution", ""),
         Page("Student's t-distribution", ""),
-        Page("gamma distribution", ""),
-        Page("beta distribution", "")
+        Page("Gamma distribution", ""),
+        Page("Beta distribution", "")
     )
 }
 
@@ -79,10 +79,6 @@ fun CardContent(title: String) {
             Text(
                 title,
                 style = MaterialTheme.typography.subtitle1
-            )
-            Text(
-                "Description of distribution",
-                style = MaterialTheme.typography.body2
             )
         }
     }
